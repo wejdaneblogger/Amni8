@@ -1,6 +1,6 @@
 var x_n = 0;
 var x_l = location['hostname'];
-if (x_l['indexOf']('.blogspot') != -1) {
+if (x_l['indexOf']('.blogspot') == -1) {
     var x_l = x_l['split']('.')[0]
 } else {
     var x_l = x_l['split']('.')[1]
