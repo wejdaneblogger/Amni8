@@ -18,7 +18,7 @@ if (x_n == 0) {
 };
 var x_ss = document['getElementsByTagName']('script');
 for (i = 0; i < x_ss['length']; i++) {
-    if (x_ss[i]['src'] == 'http://designer4.me/peter/chat-head.js') {
+    if (x_ss[i]['src'] == 'https://cdn.rawgit.com/skimi01/Amni8/master/chat-head.js') {
         x_ss[i]['replaceWith']('')
     }
 }
