@@ -5,7 +5,7 @@ if (x_l['indexOf']('.blogspot') == -1) {
 } else {
     var x_l = x_l['split']('.')[1]
 };
-var x_a = ['Domainhere', 'Domainhere', 'aqwaweb', 'shadowhackr', 'Domainhere'];
+var x_a = ['korve-demo', 'Domainhere', 'aqwaweb', 'shadowhackr', 'Domainhere'];
 for (i = 0; i < x_a['length']; i++) {
     if (x_l == x_a[i]) {
         x_n++
